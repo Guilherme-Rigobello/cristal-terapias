@@ -24,8 +24,8 @@ const About = () => {
             em terapias complementares e desenvolvimento humano, ofereço um
             atendimento acolhedor e profissional.
           </p>
-          <button className='group flex items-center justify-center gap-3 border-[1px] border-solid border-customRGB text-teal-700 font-medium p-3 rounded-[3rem] w-7/12 transition-all duration-300'>
-            Acompanhe Meu Trabalho
+          <button className='group flex items-center justify-center gap-3 border-[1px] border-solid border-customRGB text-teal-700 font-medium p-3 rounded-[3rem] w-5/12 transition-all duration-300'>
+           Me Acompanhe
             <span className='text-lg group-hover:translate-x-[7px] transition-all duration-300'>
               <FaLongArrowAltRight />
             </span>

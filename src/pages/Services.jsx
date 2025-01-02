@@ -25,7 +25,7 @@ const Services = () => {
         icon={<RiServiceFill />}
         alignmentClass='justify-center'
       />
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10 justify-items-center'>
         <Card
           imgSrc={acupunturaImg}
           title='Acupuntura'

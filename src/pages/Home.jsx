@@ -27,21 +27,21 @@ const Home = () => {
         <Navbar />
       </motion.div>
 
-      <main className='flex w-full mt-20 min-h-[55vh] max-w-screen-lg mx-auto'>
+      <main className='flex w-full mt-20 min-h-[55vh] max-w-screen-lg mx-auto px-4 max-[800px]:flex-col max-[800px]:items-center max-[1100px]:px-8'>
         <motion.div
           variants={slideIn('left', 0.2)}
           initial='hidden'
           animate='show'
-          className='w-1/2'
+          className='max-[800px]:flex max-[800px]:flex-col max-[800px]:items-center'
         >
-          <h1 className='text-teal-600 text-4xl leading-[3rem] font-semibold '>
+          <h1 className='text-teal-600 text-4xl max-md:text-3xl leading-[3rem] font-semibold  '>
             Renove-se com as
             <br /> Terapias Holísticas!
           </h1>
-          <p className='my-10 w-9/12'>
+
+          <p className='my-10 w-9/12 max-md:w-11/12 max-md:text-center'>
             Votre sourire représente votre personnalité, votre image, votre
-            estime de vous-même. Vous faire sourire, c'est ce que nous faisons
-            de mieux.
+            estime de vous-même. Vous faire sourire, c'est ce que nous
           </p>
           <div className='inline-flex items-center justify-start text-teal-600 text-2xl'>
             <SocialLink
@@ -66,7 +66,7 @@ const Home = () => {
               </p>
             </div>
             <p>
-              Seg - Qui - Sex - Sáb:{' '}
+              Seg à Sáb:{' '}
               <span className='text-teal-800 font-bold'>8:00-17:00</span>
             </p>
           </div>
@@ -76,9 +76,12 @@ const Home = () => {
           variants={slideIn('right', 0.4)}
           initial='hidden'
           animate='show'
-          className='w-1/2'
         >
-          <img src={Img} alt='img-luciane' />
+          <img
+            src={Img}
+            alt='img-luciane'
+            className='max-[800px]:py-9 mx-auto max-w-[700px] max-[800px]:w-[300px]'
+          />
         </motion.div>
       </main>
     </>
