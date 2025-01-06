@@ -59,8 +59,8 @@ const Home = () => {
             />
           </div>
           <div className='mt-10'>
-            <div>
-              <p className='inline-flex items-center justify-start'>
+            <div className='max-[800px]:text-center'>
+              <p className='inline-flex items-center justify-start '>
                 <TbClockHour7Filled className='mr-2 text-teal-600 text-xl' />{' '}
                 Horários
               </p>
@@ -80,7 +80,7 @@ const Home = () => {
           <img
             src={Img}
             alt='img-luciane'
-            className='max-[800px]:py-9 mx-auto max-w-[700px] max-[800px]:w-[300px]'
+            className='mx-auto max-[800px]:py-9 max-w-[700px] max-[800px]:w-[300px]'
           />
         </motion.div>
       </main>
