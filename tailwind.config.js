@@ -5,6 +5,7 @@ export default {
     extend: {
       colors: {
         customRGB: '#008881',
+        smCustomRGB: '#2dd4bf',
       },
     },
   },

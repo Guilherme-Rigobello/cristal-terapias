@@ -10,7 +10,7 @@ import { TbClockHour7Filled } from 'react-icons/tb';
 // IMPORT NAVBAR
 import Navbar from '../components/Navbar';
 
-// Variantes de animação para a Navbar
+// VARIANTES DE ANIMAÇÃO
 const navbarVariants = {
   hidden: { opacity: 0, y: -50 },
   show: {
@@ -27,7 +27,7 @@ const Home = () => {
         <Navbar />
       </motion.div>
 
-      <main className='flex w-full mt-20 max-[800px]:mt-10 min-h-[55vh] max-w-screen-lg mx-auto px-4 max-[800px]:flex-col max-[800px]:items-center max-[1100px]:px-8'>
+      <main className='flex w-full mt-20 max-[800px]:mt-10 min-h-[60vh] max-w-screen-lg mx-auto px-4 max-[800px]:flex-col max-[800px]:items-center max-[1100px]:px-8'>
         <motion.div
           variants={slideIn('left', 0.2)}
           initial='hidden'
@@ -40,8 +40,8 @@ const Home = () => {
           </h1>
 
           <p className='my-10 w-9/12 max-md:w-11/12 max-md:text-center'>
-            Votre sourire représente votre personnalité, votre image, votre
-            estime de vous-même. Vous faire sourire, c'est ce que nous
+            Descubra como as Terapias Holísticas podem transformar sua vida com
+            equilíbrio, bem-estar e paz interior.
           </p>
           <div className='inline-flex items-center justify-start text-teal-600 text-2xl'>
             <SocialLink

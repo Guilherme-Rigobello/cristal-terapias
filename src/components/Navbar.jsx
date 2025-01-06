@@ -26,7 +26,12 @@ const Navbar = () => {
         </ul>
       </div>
       <div>
-        <a href="https://wa.me/5511976520530?text=Olá,%20gostaria%20de%20mais%20informações!" target='_blanck' ><Button text='Agende Sua Consulta' /></a>
+        <a
+          href='https://wa.me/5511976520530?text=Olá,%20gostaria%20de%20mais%20informações%20sobre:!'
+          target='_blanck'
+        >
+          <Button text='Agendar' />
+        </a>
       </div>
     </header>
   );
