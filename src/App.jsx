@@ -1,15 +1,14 @@
-// HOOKS
-import { Outlet } from 'react-router-dom';
-
+// PAGES
 import Services from './pages/Services';
 import About from './pages/About';
 import Contact from './pages/Contato';
+import Home from './pages/Home';
 
 function App() {
   return (
     <div>
       <div className='App'>
-        <Outlet />
+        <Home />
         <Services />
         <About />
         <Contact />
