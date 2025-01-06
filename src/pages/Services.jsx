@@ -4,10 +4,11 @@ import Card from '../components/Card';
 import TitleWithIcon from '../components/Title';
 // ICONS
 import { RiServiceFill } from 'react-icons/ri';
+import { TbNeedleThread } from "react-icons/tb";
 import { FaPagelines, FaHandHoldingMedical } from 'react-icons/fa';
 import { IoEar } from 'react-icons/io5';
 import { PiNeedleFill } from 'react-icons/pi';
-import { GiHealing, GiRollingDiceCup } from 'react-icons/gi';
+import { GiHealing, GiRollingDiceCup, GiFireBowl, GiBrain   } from 'react-icons/gi';
 // IMG'S FROM ASSETS
 import floralImg from '../assets/Services/floral.svg';
 import reikiImg from '../assets/Services/reiki.svg';
@@ -29,7 +30,7 @@ const Services = () => {
         <Card
           imgSrc={acupunturaImg}
           title='Acupuntura'
-          description='fgowejejejejej fguibeqeiqogheq eiffeffefe fefefefefeffe fefefefe efefefe efeffefef '
+          description='Acupuntura é uma técnica da medicina chinesa que usa agulhas para equilibrar o Qi, aliviando dores crônicas como enxaqueca e artrite. Também reduz estresse, ansiedade, insônia, depressão e trata problemas digestivos, hormonais e alergias, promovendo bem-estar físico e emocional. '
           icon={<PiNeedleFill />}
         />
         <Card
@@ -61,6 +62,24 @@ const Services = () => {
           title='Reiki'
           description='Reiki é uma terapia japonesa que canaliza energia universal pelas mãos, promovendo equilíbrio físico, mental, emocional e espiritual. Alivia dores causando relaxamento, melhora do sono e imunidade, acelerando a cura.'
           icon={<FaHandHoldingMedical />}
+        />
+         <Card
+          imgSrc={acupunturaImg}
+          title='Moxabustão'
+          description='Acupuntura é uma técnica da medicina chinesa que usa agulhas para equilibrar o Qi, aliviando dores crônicas como enxaqueca e artrite. Também reduz estresse, ansiedade, insônia, depressão e trata problemas digestivos, hormonais e alergias, promovendo bem-estar físico e emocional. '
+          icon={<GiFireBowl  />}
+        />
+         <Card
+          imgSrc={acupunturaImg}
+          title='Eletroacupuntura'
+          description='Acupuntura é uma técnica da medicina chinesa que usa agulhas para equilibrar o Qi, aliviando dores crônicas como enxaqueca e artrite. Também reduz estresse, ansiedade, insônia, depressão e trata problemas digestivos, hormonais e alergias, promovendo bem-estar físico e emocional. '
+          icon={<TbNeedleThread />}
+        />
+         <Card
+          imgSrc={acupunturaImg}
+          title='Hipnoterapia'
+          description='Acupuntura é uma técnica da medicina chinesa que usa agulhas para equilibrar o Qi, aliviando dores crônicas como enxaqueca e artrite. Também reduz estresse, ansiedade, insônia, depressão e trata problemas digestivos, hormonais e alergias, promovendo bem-estar físico e emocional. '
+          icon={<GiBrain />}
         />
       </div>
     </section>

@@ -27,7 +27,7 @@ const Home = () => {
         <Navbar />
       </motion.div>
 
-      <main className='flex w-full mt-20 min-h-[55vh] max-w-screen-lg mx-auto px-4 max-[800px]:flex-col max-[800px]:items-center max-[1100px]:px-8'>
+      <main className='flex w-full mt-20 max-[800px]:mt-10 min-h-[55vh] max-w-screen-lg mx-auto px-4 max-[800px]:flex-col max-[800px]:items-center max-[1100px]:px-8'>
         <motion.div
           variants={slideIn('left', 0.2)}
           initial='hidden'
