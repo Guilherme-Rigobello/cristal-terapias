@@ -16,7 +16,7 @@ const About = () => {
             src={imgAbout}
           />
         </div>
-        <div className='w-11/12 flex flex-col justify-around max-[800px]:px-7'>
+        <div className='w-11/12 flex flex-col justify-around max-[800px]:px-7 max-[800px]:flex max-[800px]:items-center'>
           <TitleWithIcon text='Sobre Mim' icon={<BsPersonFillCheck />} />
           <p className='w-11/12 max-[800px]:py-10 text-justify'>
             Sou apaixonada por ajudar pessoas a encontrar equilíbrio,
