@@ -8,7 +8,7 @@ import imgAbout from '../assets/About/about.svg';
 
 const About = () => {
   return (
-    <section id='about' className='max-w-screen-lg mx-auto min-h-[40vh] mt-32 '>
+    <section className='max-w-screen-lg mx-auto min-h-[40vh] mt-32 '>
       <div className='flex max-[800px]:flex max-[800px]:flex-col-reverse max-[800px]:items-center'>
         <div className='w-5/6'>
           <img
