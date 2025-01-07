@@ -17,17 +17,17 @@ function Footer() {
         <SocialLink
           href='https://youtube.com/@lucianerigobello.terapias'
           icon={SiYoutube}
-          className='border-gray-300 text-gray-100 text-base'
+          className='border-gray-300 text-white text-base'
         />
         <SocialLink
           href='mailto:lucianerigobello.terapias@gmail.com'
           icon={SiMinutemailer}
-          className='border-gray-300 text-gray-100 text-base mx-4'
+          className='border-gray-300 text-white text-base mx-4'
         />
         <SocialLink
           href='https://instagram.com/lucianerigobelloterapias'
           icon={RiInstagramFill}
-          className='border-gray-300 text-gray-100 text-base'
+          className='border-gray-300 text-white text-base'
         />
       </div>
     </footer>
