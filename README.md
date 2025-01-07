@@ -1,5 +1,5 @@
 # **🌼 Cristal Terapias**
-Uma página desenvolvida em **Tailwind CSS, React + Vite e FramerMotion** sobre uma terapeuta holística e seus serviços, ebooks e mais.
+Uma página terapeutica desenvolvida em **Tailwind CSS, React + Vite e FramerMotion**.
 
 # 👀 Dê uma olhada na -- Versão Demo --
 
