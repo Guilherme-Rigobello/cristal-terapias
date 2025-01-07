@@ -16,10 +16,10 @@ const About = () => {
             src={imgAbout}
           />
         </div>
-        <div className='w-11/12 flex flex-col justify-around max-[800px]:px-[23px] max-[800px]:flex max-[800px]:items-center'>
+        <div className='w-11/12 flex flex-col justify-around max-[800px]:px-[24px] max-[800px]:flex max-[800px]:items-center'>
           <TitleWithIcon text='Sobre Mim' icon={<BsPersonFillCheck />} />
-          <p className='w-11/12 max-[800px]:py-10 '>
-            Apaixonada por ajudar pessoas a encontrar equilíbrio,
+          <p className='w-11/12 max-[800px]:py-10 text-justify'>
+            Apaixonada por ajudar pessoas a encontrar equilíbrio, 
             autoconhecimento e bem-estar, utilizando abordagens terapêuticas
             integrativas e personalizadas.
             <br />
