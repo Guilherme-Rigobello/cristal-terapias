@@ -8,18 +8,20 @@ import imgAbout from '../assets/About/about.svg';
 
 const About = () => {
   return (
-    <section className='max-w-screen-lg mx-auto min-h-[40vh] mt-32 '>
-      <div className='flex max-[800px]:flex max-[800px]:flex-col-reverse max-[800px]:items-center'>
+    <section className='max-w-screen-lg mx-auto min-h-[40vh] mt-32'>
+      <div className='flex flex-col-reverse md:flex-row items-center'>
         <div className='w-5/6'>
           <img
-            className='max-[800px]:py-9 mx-auto max-[800px]:w-[300px]'
+            className='mx-auto py-9 md:w-[300px]'
             src={imgAbout}
+            alt='About'
+            alignmentClass='max-sm:justify-center'
           />
         </div>
-        <div className='w-11/12 flex flex-col justify-around max-[800px]:px-[24px] max-[800px]:flex max-[800px]:items-center'>
+        <div className='w-11/12 flex flex-col justify-around md:px-0 items-center md:items-start'>
           <TitleWithIcon text='Sobre Mim' icon={<BsPersonFillCheck />} />
-          <p className='w-11/12 max-[800px]:py-10 text-justify'>
-            Apaixonada por ajudar pessoas a encontrar equilíbrio, 
+          <p className='w-11/12 py-10 text-justify'>
+            Apaixonada por ajudar pessoas a encontrar equilíbrio,
             autoconhecimento e bem-estar, utilizando abordagens terapêuticas
             integrativas e personalizadas.
             <br />

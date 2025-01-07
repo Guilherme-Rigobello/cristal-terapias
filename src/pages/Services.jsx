@@ -27,7 +27,7 @@ import eletroImg from '../assets/Services/eletro.svg';
 
 const Services = () => {
   return (
-    <section className='mt-10 min-h-[110vh] max-w-[1050px] mx-auto'>
+    <article className='mt-10 min-h-[110vh] max-w-[1050px] mx-auto'>
       <TitleWithIcon
         text='Meus Serviços'
         icon={<RiServiceFill />}
@@ -91,7 +91,7 @@ Hipnoterapia é uma técnica que utiliza o estado de transe hipnótico para aces
           icon={<GiBrain />}
         />
       </div>
-    </section>
+    </article>
   );
 };
 

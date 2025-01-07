@@ -4,6 +4,7 @@ import About from './pages/About';
 import Contact from './pages/Contato';
 import Home from './pages/Home';
 import Footer from './pages/Footer';
+import Ebook from './pages/Ebook';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className='App'>
         <Home />
         <Services />
+        <Ebook/>
         <About />
         <Contact />
         <Footer/>

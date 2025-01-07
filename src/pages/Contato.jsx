@@ -48,15 +48,15 @@ const Contact = () => {
         </div>
 
         <div className='w-full md:w-1/2 relative cursor-pointer transform transition-all hover:-translate-y-1 hover:shadow-2xl'>
-          <img 
-            src={maps} 
-            alt='Localização' 
-            className='w-full h-auto rounded shadow-lg' 
+          <img
+            src={maps}
+            alt='Localização'
+            className='w-full h-auto rounded shadow-lg'
           />
           <div className='absolute inset-0 bg-opacity-10 flex justify-center items-center rounded'>
-            <a 
-              href="https://maps.app.goo.gl/ULA2VSdjf4if7UsV9" 
-              target='_blank' 
+            <a
+              href='https://maps.app.goo.gl/ULA2VSdjf4if7UsV9'
+              target='_blank'
               rel='noopener noreferrer'
               className='mt-20 bg-teal-600 text-white px-4 py-2 flex items-center gap-2 rounded hover:bg-teal-700 transition duration-300'
             >
