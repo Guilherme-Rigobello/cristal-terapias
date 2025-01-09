@@ -23,7 +23,7 @@ const Avaliacoes = () => {
       </div>
     ),
     customPaging: (i) => (
-      <div className='w-3 h-3 mt-7 bg-gray-400 rounded-full'></div>
+      <div className='w-3 h-3 mt-4 bg-gray-400 rounded-full'></div>
     ),
     responsive: [
       {
@@ -91,7 +91,7 @@ const Avaliacoes = () => {
         <Slider {...settings}>
           {data.map((d, index) => (
             <div
-              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-full bg-stone-100 shadow-sm shadow-slate-200'
+              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-[420px] bg-stone-100 shadow-sm shadow-slate-200'
               key={index}
             >
               <div className='flex justify-center mb-4'>
