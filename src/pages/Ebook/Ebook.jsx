@@ -1,9 +1,9 @@
 // IMPORT IMG/ICON
-import ImgEbook from '../assets/Ebook/ebook.svg';
+import ImgEbook from '../../assets/Ebook/ebook.svg';
 import { FaBook } from 'react-icons/fa';
 import { FaShoppingCart } from 'react-icons/fa';
 // IMPORT COMPONENT
-import TitleWithIcon from '../components/Title';
+import TitleWithIcon from '../../components/Title';
 
 const Ebook = () => {
   return (
@@ -24,6 +24,7 @@ const Ebook = () => {
           <a
             href='https://go.hotmart.com/S97368696S'
             target='_blanck'
+            rel='noopener noreferrer'
             className='flex justify-center items-center text-white border border-white font-semibold p-3 w-[190px] rounded-[1.5rem] max-sm:mb-10 max-sm:mx-auto hover:translate-y-[-3px] hover:bg-white hover:text-teal-600 transition-all duration-300'
           >
             Compre agora{' '}

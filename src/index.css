@@ -7,8 +7,19 @@
   font-family: 'DM Sans', Arial, Helvetica, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+.slick-slide > div {
+  margin: 0 5px;
+}
+
+.custom-dots li.slick-active div {
+  background-color: #115e59;
+  transform: scale(1.3);
+  transition: all 0.3s ease
+}
+
+.custom-dots li div {
+  background-color: #cbd5e1;
+  transition: all 0.3s ease;
 }
 
 @tailwind base;

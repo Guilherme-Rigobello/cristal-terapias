@@ -3,8 +3,8 @@ import React from 'react';
 import { BsPersonFillCheck } from 'react-icons/bs';
 import { FaLongArrowAltRight } from 'react-icons/fa';
 // IMPORT COMPONENTS
-import TitleWithIcon from '../components/Title';
-import imgAbout from '../assets/About/about.svg';
+import TitleWithIcon from '../../components/Title';
+import imgAbout from '../../assets/About/about.svg';
 
 const About = () => {
   return (
@@ -15,12 +15,11 @@ const About = () => {
             className='mx-auto py-9 md:w-[300px]'
             src={imgAbout}
             alt='About'
-            alignmentClass='max-sm:justify-center'
           />
         </div>
         <div className='w-11/12 flex flex-col justify-around md:px-0 items-center md:items-start'>
           <TitleWithIcon text='Sobre Mim' icon={<BsPersonFillCheck />} />
-          <p className='w-11/12 py-10 text-justify'>
+          <p className='w-11/12 py-10 text-justify px-1'>
             Apaixonada por ajudar pessoas a encontrar equilíbrio,
             autoconhecimento e bem-estar, utilizando abordagens terapêuticas
             integrativas e personalizadas.
@@ -33,6 +32,8 @@ const About = () => {
           </p>
           <a
             href='https://instagram.com/lucianerigobelloterapias'
+            target='_blank'
+            rel='noopener noreferrer'
             className='group flex items-center justify-center gap-3 border-[1px] border-solid border-customRGB text-teal-700 font-medium p-3 rounded-[3rem] w-[250px] transition-all duration-300'
           >
             Me Acompanhe

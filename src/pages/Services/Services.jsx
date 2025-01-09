@@ -1,7 +1,7 @@
 // IMPORT CARD
-import Card from '../components/Card';
+import Card from '../../components/Card';
 // IMPORT TITLE
-import TitleWithIcon from '../components/Title';
+import TitleWithIcon from '../../components/Title';
 // ICONS
 import { RiServiceFill } from 'react-icons/ri';
 import { TbNeedleThread } from 'react-icons/tb';
@@ -15,15 +15,15 @@ import {
   GiBrain,
 } from 'react-icons/gi';
 // IMG'S FROM ASSETS
-import floralImg from '../assets/Services/floral.svg';
-import reikiImg from '../assets/Services/reiki.svg';
-import ventosaImg from '../assets/Services/ventosa.svg';
-import auriculoImg from '../assets/Services/auriculo.svg';
-import acupunturaImg from '../assets/Services/acupuntura.svg';
-import mesaImg from '../assets/Services/mesa.svg';
-import moxaImg from '../assets/Services/moxa.svg';
-import hipnoseImg from '../assets/Services/hipnose.svg';
-import eletroImg from '../assets/Services/eletro.svg';
+import floralImg from '../../assets/Services/floral.svg';
+import reikiImg from '../../assets/Services/reiki.svg';
+import ventosaImg from '../../assets/Services/ventosa.svg';
+import auriculoImg from '../../assets/Services/auriculo.svg';
+import acupunturaImg from '../../assets/Services/acupuntura.svg';
+import mesaImg from '../../assets/Services/mesa.svg';
+import moxaImg from '../../assets/Services/moxa.svg';
+import hipnoseImg from '../../assets/Services/hipnose.svg';
+import eletroImg from '../../assets/Services/eletro.svg';
 
 const Services = () => {
   return (

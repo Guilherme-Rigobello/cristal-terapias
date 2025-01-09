@@ -1,13 +1,13 @@
 import React from 'react';
 
 //IMPORT ICONS AND COMPONENT
-import TitleWithIcon from '../components/Title';
+import TitleWithIcon from '../../components/Title';
 import { MdAddLocationAlt, MdAttachEmail } from 'react-icons/md';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { SiGooglestreetview } from 'react-icons/si';
 import { BsGeoFill } from 'react-icons/bs';
 // IMPORT IMG
-import maps from '../assets/Contato/maps.svg';
+import maps from '../../assets/Contato/maps.svg';
 
 const Contact = () => {
   return (

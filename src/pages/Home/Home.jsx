@@ -1,14 +1,14 @@
 import { motion } from 'framer-motion';
-import { slideIn } from '../variants';
+import { slideIn } from '../../variants';
 // Import Img
-import Img from '../assets/Hero/lu.svg';
-import SocialLink from '../components/Social';
+import Img from '../../assets/Hero/lu.svg';
+import SocialLink from '../../components/Social';
 // REACT ICONS
 import { SiMinutemailer, SiYoutube } from 'react-icons/si';
 import { RiInstagramFill } from 'react-icons/ri';
 import { TbClockHour7Filled } from 'react-icons/tb';
 // IMPORT NAVBAR
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar';
 
 // VARIANTES DE ANIMAÇÃO
 const navbarVariants = {
@@ -67,7 +67,7 @@ const Home = () => {
             </div>
             <p>
               Seg à Sáb:{' '}
-              <span className='text-teal-800 font-bold'>8:00-17:00</span>
+              <span className='text-teal-700 font-bold'>8:00-17:00</span>
             </p>
           </div>
         </motion.div>
