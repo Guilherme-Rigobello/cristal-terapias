@@ -63,7 +63,7 @@ const Avaliacoes = () => {
     },
     {
       name: `Juliane Vóvio`,
-      review: `Sabe uma pessoa iluminada, uma pessoa radiante e que te faz sentir igual, essa é a Lu, trabalho dela é maravilhoso, trata super bem seus pacientes, recomendo demais...`,
+      review: `Sabe uma pessoa iluminada, uma pessoa radiante e que te faz sentir igual, essa é a Lu, trabalho dela é maravilhoso, trata super bem seus pacientes, recomendo demais... uma exelente profissional`,
       link: `https://g.co/kgs/Yy3Viwm`,
     },
     {
@@ -72,7 +72,7 @@ const Avaliacoes = () => {
       link: `https://g.co/kgs/geqDBEL`,
     },
     {
-      name: `Selma Santos Araujo`,
+      name: `Selma Santos`,
       review: `Maravilhosa! Sai de lá com 50 kilos mais leve rs. Ela é uma mistura de terapeuta misturado com psicóloga, psiquiatra tbm kkkk. Amo recarregar minhas energias lá! Ela é ótima, super recomendo!!!!`,
       link: `https://g.co/kgs/qvCGq8o`,
     },
@@ -91,7 +91,7 @@ const Avaliacoes = () => {
         <Slider {...settings}>
           {data.map((d, index) => (
             <div
-              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-[460px] bg-stone-100 shadow-sm shadow-slate-200'
+              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-full bg-stone-100 shadow-sm shadow-slate-200'
               key={index}
             >
               <div className='flex justify-center mb-4'>
@@ -108,7 +108,7 @@ const Avaliacoes = () => {
                   href={d.link}
                   target='_blank'
                   rel='noopener noreferrer'
-                  className='bg-teal-800 border border-transparent w-full py-2 text-white rounded-sm hover:border-teal-800 hover:bg-transparent transition duration-200 hover:text-teal-950 text-center'
+                  className='mb-5 bg-teal-800 border border-transparent w-full py-2 text-white rounded-sm hover:border-teal-800 hover:bg-transparent transition duration-200 hover:text-teal-950 text-center'
                 >
                   Ver Avaliação
                 </a>
