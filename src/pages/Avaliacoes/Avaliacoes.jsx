@@ -91,7 +91,7 @@ const Avaliacoes = () => {
         <Slider {...settings}>
           {data.map((d, index) => (
             <div
-              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-full max-md:h-[530px] bg-stone-100 shadow-sm shadow-slate-200'
+              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-[480px] max-md:h-[530px] bg-stone-100 shadow-sm shadow-slate-200'
               key={index}
             >
               <div className='flex justify-center mb-4'>
