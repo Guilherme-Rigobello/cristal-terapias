@@ -68,7 +68,7 @@ const Avaliacoes = () => {
     },
     {
       name: `Renata Lopes`,
-      review: `Bom a Lu foi uma indicação na empresa que meu marido trabalhava algumas pessoas faziam acupuntura e foi assim que soube , pessoa dedicada , atenciosa cheia de palavras boas que te acalmam.`,
+      review: `Bom a Lu foi uma indicação na empresa que meu marido trabalhava algumas pessoas faziam acupuntura e foi assim que soube , pessoa dedicada e atenciosa`,
       link: `https://g.co/kgs/geqDBEL`,
     },
     {
@@ -91,7 +91,7 @@ const Avaliacoes = () => {
         <Slider {...settings}>
           {data.map((d, index) => (
             <div
-              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-full bg-stone-100 shadow-sm shadow-slate-200'
+              className='px-4 py-5 border-2 border-gray-200 rounded-lg w-80 h-full max-md:h-[530px] bg-stone-100 shadow-sm shadow-slate-200'
               key={index}
             >
               <div className='flex justify-center mb-4'>
@@ -101,7 +101,7 @@ const Avaliacoes = () => {
                   className='text-4xl'
                 />
               </div>
-              <div className='flex flex-col items-center gap-7 p-4'>
+              <div className='flex flex-col items-center gap-10 p-4'>
                 <p className='text-xl font-semibold'>{d.name}</p>
                 <p className='text-center'>{d.review}</p>
                 <a
