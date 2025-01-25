@@ -1,8 +1,8 @@
-# **🌼 Cristal Terapias**
-Uma página terapeutica desenvolvida em **Tailwind CSS, React + Vite e FramerMotion**.
+# **👩‍⚕️ Cristal Terapias**
+Uma página terapeutica desenvolvida em Tailwind CSS e React + Vite.
 
 # 👀 Dê uma olhada 
 
-----> https://lucianerigobello.com.br <----
+--> https://lucianerigobello.com.br <--
 
 
