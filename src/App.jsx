@@ -1,3 +1,5 @@
+//SCROLL
+import { ReactLenis } from 'lenis/react';
 // PAGES
 import Services from './pages/Services/Services';
 import About from './pages/About/About';
@@ -9,17 +11,15 @@ import Avaliacoes from './pages/Avaliacoes/Avaliacoes';
 
 function App() {
   return (
-    <div>
-      <div className='App'>
-        <Home />
-        <Services />
-        <Ebook />
-        <About />
-        <Avaliacoes />
-        <Contact />
-        <Footer />
-      </div>
-    </div>
+    <ReactLenis root>
+      <Home />
+      <Services />
+      <Ebook />
+      <About />
+      <Avaliacoes />
+      <Contact />
+      <Footer />
+    </ReactLenis>
   );
 }
 
